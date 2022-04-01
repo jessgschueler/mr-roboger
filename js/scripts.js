@@ -31,5 +31,6 @@ $(document).ready(function(){
     const input = $("#number").val();
     const display = mrRobo(input).join(', ');
     $("p").text(display);
+    $('body').css('background-image', 'url("https://i.ibb.co/JvskTWD/MRROBO.jpg")')
   });
 });
