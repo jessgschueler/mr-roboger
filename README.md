@@ -31,3 +31,9 @@ Expected Output: ['0','Beep!','Boop!',"Won't you be my neighbor?", '4','5','6','
 Test: It will replace any number containing '3' with 'Won't you be my neighbor?'
 Code: mrRobo(13)
 Expected Output: ['0','Beep!','Boop!',"Won't you be my neighbor?", '4','5','6','7','8','9','Beep!','Boop!','Won't you be my neighbor?']
+
+Describe: UI Logic
+
+Test: It will submit form and display result on page
+Code: $("p").text(display)
+Expected Output: '0','Beep!','Boop!',"Won't you be my neighbor?", '4','5','6','7','8','9','Beep!','Boop!','Won't you be my neighbor?'

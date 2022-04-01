@@ -25,3 +25,11 @@ function mrRobo(number) {
 
 // UI //
 
+$(document).ready(function(){
+  $("form").submit(function(event) {
+    event.preventDefault();
+    const input = $("#number").val();
+    const display = mrRobo(input);
+    $("p").text(display);
+  });
+});
