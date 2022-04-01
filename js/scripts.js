@@ -6,7 +6,8 @@ function mrRobo(number) {
     inputArray.push(i.toString());
    }
   for (let i = 0; i <=inputArray.length; i++) {
-    if (inputArray[i] === '1') {
+    let elementValue = inputArray[i] 
+    if (elementValue === '1' || elementValue === '1') {
       inputArray[i] = 'Beep!'
     }
   }
