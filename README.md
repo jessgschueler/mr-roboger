@@ -11,3 +11,12 @@ Expected Output: ['0','1','2','3','4']
 Test: It will replace the number '1' with 'Beep!'
 Code: mrRobo(4)
 Expected Output: ['0','Beep!','2','3','4']
+
+Test: It will replace the number '2' with 'Boop!'
+Code: mrRobo(4)
+Expected Output: ['0','Beep!','Boop!','3','4']
+
+Test: It will replace the number '3' with 'Won't you be my neighbor?'
+Code: mrRobo(4)
+Expected Output: ['0','Beep!','Boop!',"Won't you be my neighbor?", '4']
+
