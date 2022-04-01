@@ -29,7 +29,7 @@ $(document).ready(function(){
   $("form").submit(function(event) {
     event.preventDefault();
     const input = $("#number").val();
-    const display = mrRobo(input);
+    const display = mrRobo(input).join(', ');
     $("p").text(display);
   });
 });
