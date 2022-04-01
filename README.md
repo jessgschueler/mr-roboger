@@ -19,7 +19,7 @@ $ git clone https://github.com/jessgschueler/mr-robogers
 ```
 * Open the index.html file in browser
 
-* Alternativley, visit [this link](https://jessgschueler.github.io/mr-robogers/)
+* Alternativley, visit [this link](https://jessgschueler.github.io/mr-roboger/)
 
 ## Known Bugs
 * none
